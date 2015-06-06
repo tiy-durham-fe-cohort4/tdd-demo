@@ -1,0 +1,17 @@
+{
+  "name": "tdd-demo",
+  "version": "0.0.1",
+  "description": "A demo of how to do TDD with Jasmine",
+  "directories": {},
+  "scripts": {
+    "test": "jasmine-node test/*.spec.js"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "Chris Davies <ferociousturtle@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
