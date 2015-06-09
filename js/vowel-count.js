@@ -1,3 +1,5 @@
 module.exports = function (str) {
-  return 1;
+  var matches = (str || '').match(/[aeiou]/gi);
+  
+  return matches ? matches.length : 0;
 };
